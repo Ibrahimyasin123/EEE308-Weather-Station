@@ -143,6 +143,6 @@ The circuit was designed and verified in **Proteus ISIS** using the SIMULINO UNO
 
 
 
----
+
 
 
