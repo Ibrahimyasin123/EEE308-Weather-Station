@@ -141,22 +141,8 @@ The circuit was designed and verified in **Proteus ISIS** using the SIMULINO UNO
 
 ---
 
-##  Repository Structure
 
-```
-mini-weather-station/
-├── eee308termproject.ino          # Arduino source code
-├── EEE308_WeatherStation_Report.docx  # Full project report
-├── README.md                      # This file
-└── simulation/
-    ├── sim_normal.jpeg            # Scenario 1 screenshot
-    ├── sim_high_temp.jpeg         # Scenario 2 screenshot
-    └── sim_storm.jpeg             # Scenario 3 screenshot
-```
 
 ---
 
-##  License
 
-This project was developed for academic purposes at OSTIM Technical University.
-© 2026 Sayme Ayça Öztekin & İbrahim Yasin Aşıcı
