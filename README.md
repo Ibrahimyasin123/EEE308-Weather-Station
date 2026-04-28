@@ -1,12 +1,12 @@
 # EEE308-Weather-Station[README.md](https://github.com/user-attachments/files/27159576/README.md)
-# 🌦️ Arduino Uno-Based Mini Weather Station
+#  Arduino Uno-Based Mini Weather Station
 
 > **EEE308 Microprocessors — Term Project**
 > OSTIM Technical University | Electrical & Electronics Engineering | April 2026
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | Student ID |
 |------|-----------|
@@ -15,21 +15,21 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a microcontroller-based mini weather station built with an **Arduino Uno**. It measures real-time environmental data and displays it on an LCD screen. A rule-based algorithm estimates the probability of rainfall using three sensor inputs.
 
 ### Features
-- 🌡️ Real-time temperature & humidity measurement (DHT11)
-- 🌬️ Atmospheric pressure measurement (BMP180 / BMP280)
-- 📺 LCD display with two alternating pages
-- 🔴 LED alert when temperature exceeds threshold
-- 🌧️ Rain probability prediction (0–100%)
-- 📊 Serial Monitor & Serial Plotter support
+-  Real-time temperature & humidity measurement (DHT11)
+-  Atmospheric pressure measurement (BMP180 / BMP280)
+-  LCD display with two alternating pages
+-  LED alert when temperature exceeds threshold
+-  Rain probability prediction (0–100%)
+-  Serial Monitor & Serial Plotter support
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 
 | Component | Role |
 |-----------|------|
@@ -44,7 +44,7 @@ This project is a microcontroller-based mini weather station built with an **Ard
 
 ---
 
-## 🗂️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -63,7 +63,7 @@ This project is a microcontroller-based mini weather station built with an **Ard
 
 ---
 
-## 🌧️ Rain Probability Formula
+##  Rain Probability Formula
 
 The prediction module uses a weighted rule-based model:
 
@@ -81,7 +81,7 @@ Result is clamped to **[0, 100]%**.
 
 ---
 
-## 📺 LCD Display Pages
+##  LCD Display Pages
 
 The LCD cycles every 2 seconds between two pages:
 
@@ -96,7 +96,7 @@ The LCD cycles every 2 seconds between two pages:
 
 ---
 
-## 📌 Pin Connections
+##  Pin Connections
 
 | Signal | Arduino Pin |
 |--------|------------|
@@ -113,7 +113,7 @@ The LCD cycles every 2 seconds between two pages:
 
 ---
 
-## 📚 Libraries Required
+##  Libraries Required
 
 Install via Arduino IDE → Library Manager:
 
@@ -127,7 +127,7 @@ Wire                     — Built-in (no install needed)
 
 ---
 
-## 🖥️ Simulation
+##  Simulation
 
 The circuit was designed and verified in **Proteus ISIS** using the SIMULINO UNO model.
 
@@ -141,7 +141,7 @@ The circuit was designed and verified in **Proteus ISIS** using the SIMULINO UNO
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 mini-weather-station/
@@ -156,7 +156,7 @@ mini-weather-station/
 
 ---
 
-## 📄 License
+##  License
 
 This project was developed for academic purposes at OSTIM Technical University.
 © 2026 Sayme Ayça Öztekin & İbrahim Yasin Aşıcı
